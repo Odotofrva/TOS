@@ -480,8 +480,8 @@ body::before{
           <div class="ratio">
             <iframe
               id="commercialFrame"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1"
-              title="TRAP-OF-STICKS Commercial"
+              src="https://www.youtube.com/watch?v=818rXERnDj0&list=RD818rXERnDj0&start_radio=1"
+              title="TOS Gaming"
               allow="autoplay; encrypted-media; fullscreen"
               allowfullscreen
             ></iframe>
@@ -489,7 +489,7 @@ body::before{
         </div>
 
         <div class="hero-cta">
-          <div class="hint">Pro tip: set your commercial in the iframe URL above.</div>
+          
           <button class="btn primary" id="heroSignupBtn" type="button">Join the Crew</button>
         </div>
       </div>
@@ -499,7 +499,7 @@ body::before{
       <!-- Players -->
       <section class="players" aria-label="Players">
         <div class="players-header">
-          <div>Players</div>
+          <div>TOS Players</div>
           <small id="playerCount">0</small>
         </div>
         <div id="playerList"></div>
@@ -508,14 +508,14 @@ body::before{
       <!-- Stream + Profile -->
       <section class="panel" aria-label="Stream & Profile">
         <div class="panel-header">
-          <div>Live Stream</div>
+          <div>TOS Live Stream</div>
           <small id="streamTitle">Select a player</small>
         </div>
 
         <div class="panel-body">
           <div class="hint">
-            ⚠️ Twitch embeds require your deployed domain in <b>parent</b>.
-            Update <code>PARENTS</code> in JS (include your domain + www).
+            <!--⚠️ Twitch embeds require your deployed domain in <b>parent</b>.
+            Update <code>PARENTS</code> in JS (include your domain + www). -->
           </div>
 
           <div class="stream-shell">
@@ -538,7 +538,7 @@ body::before{
               <div class="avatar"><img id="profilePhoto" alt="Player photo" src=""></div>
               <div>
                 <h3 id="profileName">—</h3>
-                <div class="handle" id="profileHandle">Select a player to load profile + stream.</div>
+                <div class="handle" id="profileHandle">Select a TOS Player to load profile + stream.</div>
               </div>
             </div>
 
@@ -547,15 +547,15 @@ body::before{
 
             <div class="actions">
               <button class="btn primary" id="subscribeBtn" type="button">Subscribe</button>
-              <button class="btn" id="logStreamBtn" type="button">Log Stream Session</button>
+              <button class="btn" id="logStreamBtn" type="button">TOS Log Stream Session</button>
             </div>
             <div class="hint" id="subscribeHint" style="margin-top:10px;">
               Subscribing requires login.
             </div>
 
             <div class="links">
-              <a class="link" id="twitchLink" href="#" target="_blank" rel="noreferrer">Twitch</a>
-              <a class="link" id="igLink" href="#" target="_blank" rel="noreferrer">Instagram</a>
+              <a class="link" id="twitchLink" href="#" target="_blank" rel="noreferrer">TOS Twitch</a>
+              <a class="link" id="igLink" href="#" target="_blank" rel="noreferrer">TOS Instagram</a>
             </div>
           </div>
         </div>
@@ -572,11 +572,11 @@ body::before{
       </div>
 
       <div class="modal-body">
-        <div class="hint">Demo auth (localStorage). Good for prototype; swap to real auth later.</div>
+        <div class="hint"><!--Demo auth (localStorage). Good for prototype; swap to real auth later.--></div>
 
         <form id="signupForm" style="display:grid; gap:12px;">
           <div class="field">
-            <label for="suUsername">Username</label>
+            <label for="suUsername">TOS Username</label>
             <input id="suUsername" name="username" required minlength="3" maxlength="20" placeholder="TrapSniper" />
           </div>
 
@@ -586,11 +586,11 @@ body::before{
           </div>
 
           <div class="field">
-            <label for="suPassword">Password</label>
+            <label for="suPassword">TOS Password</label>
             <input id="suPassword" name="password" type="password" required minlength="6" placeholder="••••••••" />
           </div>
 
-          <button class="btn primary" type="submit" style="width:100%; padding:12px 14px;">Create Account</button>
+          <button class="btn primary" type="submit" style="width:100%; padding:12px 14px;">Create TOS Account</button>
           <div id="signupResult" class="hint success" style="display:none;"></div>
         </form>
       </div>
@@ -610,12 +610,12 @@ body::before{
 
         <form id="loginForm" style="display:grid; gap:12px;">
           <div class="field">
-            <label for="liUsername">Username</label>
+            <label for="liUsername">TOS Username</label>
             <input id="liUsername" name="username" required placeholder="TrapSniper" />
           </div>
 
           <div class="field">
-            <label for="liPassword">Password</label>
+            <label for="liPassword">TOS Password</label>
             <input id="liPassword" name="password" type="password" required placeholder="••••••••" />
           </div>
 
